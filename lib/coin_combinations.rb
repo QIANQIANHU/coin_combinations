@@ -1,11 +1,5 @@
 class Coins
-  def initialize()
-    @quarters
-    @dimes
-    @nickels
-    @pennies
-  end
-  def coin_combinations(number)
+  def initialize(number)
     @quarters = number/25
     @dimes = (number%25)/10
     @nickels = ((number%25) - 10)/5
