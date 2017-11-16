@@ -12,6 +12,6 @@ class Coins
     @pennies = ((number%25) - 10)-5
   end
   def result_displayer()
-    [@quarters, @dimes, @nickels,@pennies]
+    "It is equal to #{@quarters} quarters, #{@dimes} dimes, #{@nickels} nickels, #{@pennies} pennies."
   end
 end
